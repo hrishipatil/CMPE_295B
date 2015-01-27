@@ -1,5 +1,7 @@
-#python script to fetch and store(JSON format) social tv feed for tv shows
-#Test search : Fetches tweets for the tv show "The Mentalist" 
+#python script to fetch and store(JSON format) social tv feed for tv shows using tweepy 
+#Test search : Fetches tweets for the tv shows 
+#Source code reference:http://sentdex.com
+#Refer:http://sentdex.com/sentiment-analysisbig-data-and-python-tutorials-algorithmic-trading/how-to-use-the-twitter-api-1-1-to-stream-tweets-in-python/ 
 from tweepy import Stream
 from tweepy import OAuthHandler
 from tweepy.streaming import StreamListener
